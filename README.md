@@ -1,5 +1,6 @@
 # CS0048
 # Python Programming Tutorial
+# By: Dr. Hadji J. Tejuco
 
 ![Python Logo](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
 
@@ -231,4 +232,263 @@ Tools:
 - Importing modules from packages using dot (`.`) notation
 
 ---
+# 🧱 Module 4: Object-Oriented Programming (OOP) in Python
+
+---
+
+## 🎯 Learning Objectives
+
+- Understand Object-Oriented Programming in Python
+- Define and explain:
+  - Class
+  - Inheritance
+  - Operator Overloading
+- Apply OOP concepts effectively in Python
+
+---
+
+## ✅ Topics Covered
+
+### 🔹 Introduction to OOP in Python
+- What is Object-Oriented Programming?
+- Advantages of OOP: DRY principle, reusability, modularity
+
+### 🔹 Objects and Classes
+- Understanding objects (attributes and behavior)
+- Defining classes using `class` keyword
+- Creating object instances
+- `__init__()` method and constructors
+- Accessing attributes and methods
+
+### 🔹 Instance Methods and Class Attributes
+- Defining methods inside classes
+- `self` keyword
+- Accessing and modifying attributes
+
+### 🔹 Inheritance
+- Base and derived classes
+- Overriding methods
+- Using `super()` to access parent class methods
+- `isinstance()` and `issubclass()` checks
+
+### 🔹 Multiple and Multilevel Inheritance
+- Syntax and structure
+- Inheriting from multiple base classes
+- Creating deeper class hierarchies
+
+### 🔹 Encapsulation
+- Public vs. private attributes
+- Name mangling using `_` and `__`
+- Getters and setters
+
+### 🔹 Polymorphism
+- Method overriding
+- Common interfaces for different classes
+
+### 🔹 Special Methods and Operator Overloading
+- Special methods like `__init__`, `__str__`, and `__add__`
+- Making classes compatible with Python’s built-in operators
+- Overloading arithmetic and comparison operators (`+`, `<`, etc.)
+
+### 🔹 Object Lifetime and Garbage Collection
+- Creating and deleting attributes and objects
+- Understanding object references and automatic cleanup
+
+---
+
+# 🧮 Module 5: Data Types in Python
+
+---
+
+## 🎯 Learning Objectives
+
+- List the different data types in Python.
+- Define and describe:
+  - List
+  - Tuple
+  - String
+  - Set
+  - Dictionary
+- Apply data type concepts using Python syntax.
+
+---
+
+## ✅ Topics Covered
+
+### 🔹 Core Data Types in Python
+- Numbers
+- List
+- Tuple
+- String
+- Set
+- Dictionary
+
+---
+
+## 🔢 Numbers
+- Integer, Float, Complex types
+- Type checking with `type()` and `isinstance()`
+- Type conversion and coercion (`int()`, `float()`, `complex()`)
+- Decimal and Fraction modules
+- Floating-point limitations and precision control
+- Mathematical operations using `math` and `random` modules
+
+---
+
+## 📝 Lists
+- Definition and creation using `[]`
+- Indexing, slicing, and negative indexing
+- Mutability and item modification
+- Adding: `append()`, `extend()`, `insert()`, `+`, `*`
+- Removing: `del`, `remove()`, `pop()`, `clear()`
+- List methods and `list.method()`
+- List comprehension
+- Membership testing and iteration with `for`
+
+---
+
+## 📦 Tuples
+- Definition and creation using `()`
+- Immutability vs lists
+- Indexing and slicing
+- Tuple methods
+- Tuple membership testing and iteration
+- Tuple advantages over lists
+
+---
+
+## 🔤 Strings
+- Definition and creation with quotes (`'`, `"`, `'''`)
+- Indexing, slicing, and immutability
+- Escape sequences and raw strings
+- String concatenation and repetition (`+`, `*`)
+- Built-in string functions: `len()`, `enumerate()`
+- String formatting: `format()`, `%`, and format specifiers
+- String methods: `lower()`, `upper()`, `split()`, `join()`, `replace()`, etc.
+
+---
+
+## 🧮 Sets
+- Definition using `{}` or `set()`
+- Unordered and unique elements
+- Adding: `add()`, `update()`
+- Removing: `remove()`, `discard()`, `pop()`, `clear()`
+- Set operations: union, intersection, difference, symmetric difference
+- Built-in functions with sets: `all()`, `any()`, `max()`, `min()`, `sum()`
+- `frozenset` — immutable set
+
+---
+
+## 🗂️ Dictionaries
+- Definition using `{key: value}` syntax
+- Accessing values with keys and `get()`
+- Mutability: adding, updating, and deleting items
+- Removal: `pop()`, `popitem()`, `del`, `clear()`
+- Dictionary comprehension
+- Built-in functions with dictionaries: `len()`, `sorted()`, etc.
+
+---
+# 🗂️ Module 6: Python Files and Exception Handling
+
+---
+
+## 🎯 Learning Objectives
+
+- Understand the need for file handling in large applications.
+- Learn to:
+  - Open, read, write, and close files in Python.
+  - Differentiate between text and binary files.
+  - Handle file and directory operations using the `os` module.
+  - Use exception handling to manage program errors.
+- Apply file I/O and exception concepts in Python programming.
+
+---
+
+## ✅ Topics Covered
+
+### 🔹 Introduction to File Handling
+- Importance of files in data persistence
+- Real-life file management analogy
+- File operations: open, read, write, close
+- File types:
+  - Binary files (e.g., `.pdf`, `.jpg`, `.exe`)
+  - Text files (e.g., `.txt`, `.csv`, `.py`)
+
+---
+
+### 🔹 File Operations in Python
+
+#### `open()` Function
+- Syntax and parameters (`file_name`, `mode`, `buffering`)
+- Access modes: `'r'`, `'w'`, `'a'`, `'b'`, `'x'`, etc.
+
+#### File Object Attributes
+- `.name`, `.mode`, `.closed`, `.softspace`
+
+#### `close()` Method
+- Flushing and closing the file safely
+
+#### Writing to Files
+- `write()` method (no newline added)
+
+#### Reading from Files
+- `read()`, `readline()`, `readlines()`
+- Reading partial or entire content
+
+#### `tell()` and `seek()`
+- Tracking and repositioning file pointer
+
+---
+
+### 🔹 File Management with `os` Module
+
+#### File and Directory Handling
+- `os.rename()` — rename files
+- `os.remove()` — delete files
+- `os.mkdir()` — create directories
+- `os.chdir()` — change current directory
+- `os.getcwd()` — get current directory
+- `os.rmdir()` — remove directory
+
+#### Utility Sources
+- File object methods
+- OS module file methods
+
+---
+
+### 🔹 Exception Handling in Python
+
+#### What is an Exception?
+- Errors disrupting normal program flow
+- Types of built-in exceptions
+
+#### `try-except` Block
+- Catching specific exceptions
+- Generic exception handling
+- Multiple `except` blocks
+- Optional `else` block (runs if no exception)
+
+#### `finally` Block
+- Always runs regardless of exception
+
+#### Catching Exception with Arguments
+- Exception argument object
+- Using variables to retrieve error messages
+
+---
+
+### 🔹 Raising Exceptions
+- `raise` keyword to manually trigger exceptions
+- Syntax with custom messages
+- `raise Exception("message")`
+
+---
+
+### 🔹 User-Defined Exceptions
+- Creating custom exceptions with classes
+- Inheriting from `Exception` or `RuntimeError`
+- Raising and handling user-defined exceptions
+
+---
+
 
