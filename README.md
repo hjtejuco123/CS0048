@@ -118,8 +118,63 @@ Tools:
 - Case-sensitive (`Age` ≠ `age`)
 - Dynamically typed
 
-Example:
+# 🔁 Module 2: Conditional Statements and Loops in Python
+
+> Learn how to make decisions and perform repetitive tasks in Python using conditional statements and loops.
+
+---
+
+## 🎯 Learning Objectives
+
+
+
+---
+
+## ✅ Conditional Statements in Python
+
+Conditional statements allow Python to make decisions and control program flow based on logical conditions.
+
+### 🔹 `if` Statement
+
+Executes a block of code if the condition is true.
 
 ```python
-myVar = "Hadji"
-print(myVar)
+num = 3
+if num > 0:
+    print("Positive number")
+
+
+# 🔁 Module 2: Conditional Statements and Loops in Python
+
+---
+
+## ✅ Topics Covered
+
+### 🔹 Conditional Statements in Python
+- What are Conditional Statements?
+- Truthy and Falsy values in Python
+- `if` statement
+- `if-else` statement
+- `if-elif-else` statement
+- Nested `if` statements
+- Single-line `if` statements
+
+### 🔹 Loops in Python
+- Sequential execution vs Repetition
+- `while` loop
+  - Syntax and flow
+  - Use of `else` with `while`
+- `for` loop
+  - Iteration over sequence
+  - Using `range()` with `for`
+  - Using `len()` with `for`
+  - Use of `else` with `for`
+- Nested Loops
+- Using `end` in `print()` for formatting loop output
+
+### 🔹 Loop Control Statements
+- `break`: Exit a loop early
+- `continue`: Skip current iteration
+- `pass`: Placeholder statement in loops and functions
+
+
