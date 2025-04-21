@@ -119,32 +119,7 @@ Tools:
 - Dynamically typed
 
 # 🔁 Module 2: Conditional Statements and Loops in Python
-
 > Learn how to make decisions and perform repetitive tasks in Python using conditional statements and loops.
-
----
-
-## 🎯 Learning Objectives
-
-
-
----
-
-## ✅ Conditional Statements in Python
-
-Conditional statements allow Python to make decisions and control program flow based on logical conditions.
-
-### 🔹 `if` Statement
-
-Executes a block of code if the condition is true.
-
-```python
-num = 3
-if num > 0:
-    print("Positive number")
-
-
-# 🔁 Module 2: Conditional Statements and Loops in Python
 
 ---
 
@@ -165,7 +140,7 @@ if num > 0:
   - Syntax and flow
   - Use of `else` with `while`
 - `for` loop
-  - Iteration over sequence
+  - Iteration over a sequence
   - Using `range()` with `for`
   - Using `len()` with `for`
   - Use of `else` with `for`
