@@ -152,4 +152,83 @@ Tools:
 - `continue`: Skip current iteration
 - `pass`: Placeholder statement in loops and functions
 
+---
+
+# 🔧 Module 3: Functions in Python
+
+---
+
+## 🎯 Learning Objectives
+
+- Define Python functions.
+- List and discuss the different types of functions.
+- Write the syntax of a function.
+- Demonstrate how to run a function in Python.
+- Discuss the scope and lifetime of variables.
+
+---
+
+## ✅ Topics Covered
+
+### 🔹 Introduction to Functions
+- Purpose and benefits of using functions
+- Code reusability and modularization
+
+### 🔹 Types of Functions
+- Built-in functions (e.g. `print()`, `help()`, `min()`)
+- User-defined functions
+- Anonymous functions (Lambda functions)
+
+### 🔹 Defining Functions in Python
+- `def` keyword
+- Function name and parameters
+- Docstrings
+- Indentation and body
+- `return` statement
+
+### 🔹 Calling Functions
+- Syntax for invoking functions
+- Positional and keyword arguments
+
+### 🔹 Scope and Lifetime of Variables
+- Local variables
+- Global variables
+- Variable lifetime within function execution
+
+### 🔹 Function Parameters
+- Default arguments
+- Keyword arguments
+- Arbitrary arguments (`*args`)
+- Rules on argument ordering
+
+### 🔹 Recursive Functions
+- Definition and use cases
+- Base case and recursive step
+- Pros and cons of recursion
+
+### 🔹 Lambda Functions
+- Syntax and structure
+- When to use lambda functions
+- Lambda with `map()` and `filter()`
+
+### 🔹 Global, Local, and Nonlocal Variables
+- `global` keyword usage
+- `nonlocal` keyword usage
+- Behavior of variable scope in nested functions
+
+### 🔹 Modules in Python
+- What are modules?
+- Importing modules using:
+  - `import module`
+  - `import module as alias`
+  - `from module import item`
+  - `from module import *`
+- Best practices in importing
+
+### 🔹 Packages in Python
+- Directory structure and `__init__.py`
+- Organizing modules in packages
+- Importing modules from packages using dot (`.`) notation
+
+---
 
