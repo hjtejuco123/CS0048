@@ -29,8 +29,8 @@
 
 #chaining 
 
-a,b,c = 2,4,6
+# a,b,c = 2,4,6
 
-if a < b < c:
-    print ("Numbers incresing")
+# if a < b < c:
+#     print ("Numbers incresing")
 
