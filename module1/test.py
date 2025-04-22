@@ -19,3 +19,15 @@
 #         print("Even")
 #     else:
 #         print("Odd")
+
+#ver 2
+for i in range(5):
+    print (f"Number: {i}")
+
+    if i == 0:
+        print ("Zero")
+    elif i % 2 == 0:
+        print ("Even")
+    else:
+        print ("Odd")
+
