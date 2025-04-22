@@ -5,7 +5,7 @@ Print statements
 
 
 #print
-#print ("Hello World")
+# print ("Hello World")
 
 #print multiple items
 # name = "Hadji"
@@ -14,7 +14,8 @@ Print statements
 
 #Separator parameter (sep)
 #default is space
-# print("Python","is","the","best","programming","language", sep='-')
+# print("Python","is","the","best","programming","language")
+# print("Python","is","the","best","programming","language", sep="-")
 
 # print (1,2,3, sep=", ")
 
@@ -44,9 +45,9 @@ Print statements
 #print("Price: {:.2f}".format(19.995))
 
 #f-String 3.6
-name = "Hadji"
-age = 25
-print (f"{name} is {age} years old")
+# name = "Hadji"
+# age = 25
+# print (f"{name} is {age} years old")
 
-import math 
-print (f"pi is approximately {math.pi:.3f}")
+# import math 
+# print (f"pi is approximately {math.pi:.3f}")
