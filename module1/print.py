@@ -14,6 +14,12 @@ Print statements
 
 #Separator parameter (sep)
 #default is space
-print("Python","is","the","best","programming","language", sep='-')
+# print("Python","is","the","best","programming","language", sep='-')
 
-print (1,2,3, sep=", ")
+# print (1,2,3, sep=", ")
+
+#End Paramater
+# end default \n
+
+print ("Hello", end=" ")
+print ("World", end="!")
