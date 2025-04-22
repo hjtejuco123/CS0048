@@ -4,10 +4,18 @@
 #     print ("this is still part of the if block")
 # print ("this is outside of the if block")
 
-def greet(name):
-    print (f"hello, {name}!")
-    if len(name)>5:
-        print ("This is a long name")
+# def greet(name):
+#     print (f"hello, {name}!")
+#     if len(name)>5:
+#         print ("This is a long name")
 
 
-greet ("Joanss")
+# greet ("Joanss")
+
+#loops
+# for i in range(3):
+#     print(i)
+#     if i % 2 == 0:
+#         print("Even")
+#     else:
+#         print("Odd")
