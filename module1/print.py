@@ -16,11 +16,12 @@ Print statements
 #default is space
 # print("Python","is","the","best","programming","language")
 # print("Python","is","the","best","programming","language", sep="-")
-
 # print (1,2,3, sep=", ")
 
 #End Paramater
 # end default \n
+# print ("hello World")
+# print ("Hello Python")
 
 # print ("Hello", end=" ")
 # print ("World", end="!")
@@ -28,8 +29,9 @@ Print statements
 # % - formatting (OLD)
 # %s -> String
 # %f -> float (number of decimal places)
+# %d -> int
 
-# name ="Hadji"
+# name = "Hadji"
 # print ("Hello, %s!" % name)
 
 # pi=3.14159
@@ -37,9 +39,9 @@ Print statements
 # print ("Pi %.2f" % pi)
 
 #str.format() method
-
+                                    #0     1
 #print ("{} is {} years old".format("Hadji",25))
-
+                                       #0     1
 #print ("{1} comes before {0}".format("Zebra","Apple"))
 
 #print("Price: {:.2f}".format(19.995))
