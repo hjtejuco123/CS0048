@@ -33,4 +33,3 @@ a,b,c = 2,4,6
 
 if a < b < c:
     print ("Numbers incresing")
-
