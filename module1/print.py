@@ -21,5 +21,16 @@ Print statements
 #End Paramater
 # end default \n
 
-print ("Hello", end=" ")
-print ("World", end="!")
+# print ("Hello", end=" ")
+# print ("World", end="!")
+
+# % - formatting (OLD)
+# %s -> String
+# %f -> float (number of decimal places)
+
+name ="Hadji"
+print ("Hello, %s!" % name)
+
+pi=3.14159
+print(pi)
+print ("Pi %.2f" % pi)
