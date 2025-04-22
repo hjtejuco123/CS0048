@@ -41,5 +41,12 @@ Print statements
 
 #print ("{1} comes before {0}".format("Zebra","Apple"))
 
-print("Price: {:.2f}".format(19.995))
+#print("Price: {:.2f}".format(19.995))
 
+#f-String 3.6
+name = "Hadji"
+age = 25
+print (f"{name} is {age} years old")
+
+import math 
+print (f"pi is approximately {math.pi:.3f}")
