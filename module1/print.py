@@ -28,9 +28,18 @@ Print statements
 # %s -> String
 # %f -> float (number of decimal places)
 
-name ="Hadji"
-print ("Hello, %s!" % name)
+# name ="Hadji"
+# print ("Hello, %s!" % name)
 
-pi=3.14159
-print(pi)
-print ("Pi %.2f" % pi)
+# pi=3.14159
+# print(pi)
+# print ("Pi %.2f" % pi)
+
+#str.format() method
+
+#print ("{} is {} years old".format("Hadji",25))
+
+#print ("{1} comes before {0}".format("Zebra","Apple"))
+
+print("Price: {:.2f}".format(19.995))
+
