@@ -78,3 +78,19 @@ if condition:action
 # a = 10
 # b = 5
 # if a>b:print ("a is greater than b")
+
+'''
+Loops
+
+While loop
+
+while condition:
+    #block of codes
+
+'''
+
+count = 0
+while count < 5:
+    print ("Counter ",count)
+    count += 1
+print ("End of Code..")
