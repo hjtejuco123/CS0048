@@ -20,8 +20,19 @@ if condition:
 else:
     #block of codes if the condition is False
 '''
-num = 3
-if num >= 0:
-    print ("Number is positive ")
+# num = 3
+# if num >= 0:
+#     print ("Number is positive ")
+# else:
+#     print ("Number is negative ")
+
+'''
+if condition1:
+    #block1
+elif condition2:
+    #block2
+elif condition3:
+    #block3
 else:
-    print ("Number is negative ")
+    #block4
+'''
