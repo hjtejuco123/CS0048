@@ -89,8 +89,19 @@ while condition:
 
 '''
 
+# count = 0
+# while count < 5:
+#     print ("Counter ",count)
+#     count += 1
+# print ("End of Code..")
+
+'''
+while loop with else
+'''
 count = 0
 while count < 5:
-    print ("Counter ",count)
+    print ("Inside Loop ",count)
     count += 1
-print ("End of Code..")
+else:
+    print ("Loop Finished!")
+print ("End of code...")
