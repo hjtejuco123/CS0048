@@ -37,10 +37,25 @@ else:
     #block4
 '''
 
-num = -1
-if num > 0:
-    print ("positive number ")
-elif num==0:
-    print ("zero")
+# num = -1
+# if num > 0:
+#     print ("positive number ")
+# elif num==0:
+#     print ("zero")
+# else:
+#     print ("negative number")
+
+'''
+Nested If statements
+
+if condition1:
+    if condition2:
+        #block of code
+    else:
+        #block of code
+elif conditionX:
+    #block of code
 else:
-    print ("negative number")
+    #block of code
+'''
+
