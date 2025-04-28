@@ -59,11 +59,22 @@ else:
     #block of code
 '''
 
-num = -1
-if num >= 0:
-    if num == 0:
-        print ("Zero")
-    else:
-        print ("Positive number")
-else:
-    print ("Negative number")
+# num = -1
+# if num >= 0:
+#     if num == 0:
+#         print ("Zero")
+#     else:
+#         print ("Positive number")
+# else:
+#     print ("Negative number")
+
+
+'''
+Single Line if statement
+
+if condition:action
+'''
+
+# a = 10
+# b = 5
+# if a>b:print ("a is greater than b")
