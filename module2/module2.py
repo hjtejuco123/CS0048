@@ -9,7 +9,19 @@ if condition:
     # block of codes
 '''
 
-num = 5
-if num > 0:
-    print ("Positive Number")
-print ("Continue with program code ...")
+# num = 5
+# if num > 0:
+#     print ("Positive Number")
+# print ("Continue with program code ...")
+
+'''
+if condition:
+    #block of codes if the condition is True
+else:
+    #block of codes if the condition is False
+'''
+num = 3
+if num >= 0:
+    print ("Number is positive ")
+else:
+    print ("Number is negative ")
