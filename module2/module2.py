@@ -37,7 +37,7 @@ else:
     #block4
 '''
 
-num = 0
+num = -1
 if num > 0:
     print ("positive number ")
 elif num==0:
