@@ -1,6 +1,5 @@
 '''
 Banking System
-
 Menu
     Deposit
     Withdraw
@@ -19,9 +18,7 @@ def pause():
 
 import os
 #os.system('cls' if os.name =='nt' else 'clear')
-
 balance = 0
-
 while True:
     os.system('cls' if os.name =='nt' else 'clear')
 
