@@ -14,12 +14,16 @@ Logical Flow
 4. Perform the operation (menu 1-4)
 5. Loop is terminated if the user selects 4
 '''
+def pause():
+    input("Press Enter to continue")
+
 import os
-os.system('cls' if os.name =='nt' else 'clear')
 
 balance = 0
 
 while True:
+    os.system('cls' if os.name =='nt' else 'clear')
+
     print ("\n---Banking System---")
     print ("1. Deposit")
     print ("2. Withdraw")
@@ -31,19 +35,21 @@ while True:
         amount = float(input("Enter amount to deposit: "))
         balance += amount
         print (f"Deposited {amount:.2f}, New Balance is {balance:.2f}")
+        pause()
     elif choice == "2":
         amount = float(input("Enter amount to withdraw: "))
         if amount <= balance:
             balance -= amount
             print (f"Withdrew {amount:.2f}, New Balance is {balance:.2f}")
+            pause()
         else:
             print ("Insufficient balance!")
     elif choice == "3":
         print (f"Current Balance is {balance:.2f}")
+        pause()
     elif choice == "4":
         print ("Thank you for using banking System")
         break 
     else:
         print ("invalid choice, try again")
-
-
+        pause()
