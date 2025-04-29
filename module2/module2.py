@@ -98,10 +98,17 @@ while condition:
 '''
 while loop with else
 '''
-count = 0
-while count < 5:
-    print ("Inside Loop ",count)
-    count += 1
-else:
-    print ("Loop Finished!")
-print ("End of code...")
+# count = 0
+# while count < 5:
+#     print ("Inside Loop ",count)
+#     count += 1
+# else:
+#     print ("Loop Finished!")
+# print ("End of code...")
+
+'''
+Iterating over a list
+'''
+fruits = ["apple","banana","cherry"]
+for fruit in fruits:
+    print(fruit)
