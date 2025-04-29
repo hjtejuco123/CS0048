@@ -14,6 +14,9 @@ Logical Flow
 4. Perform the operation (menu 1-4)
 5. Loop is terminated if the user selects 4
 '''
+import os
+os.system('cls' if os.name =='nt' else 'clear')
+
 balance = 0
 
 while True:
