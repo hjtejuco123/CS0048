@@ -153,6 +153,6 @@ using range with condition statement
 #         continue
 #     print(i)
 
-if True:
-    pass
-print ("This is after pass")
+# if True:
+#     pass
+# print ("This is after pass")
