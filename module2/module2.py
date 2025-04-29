@@ -84,17 +84,17 @@ else
 
 '''
 
-grade = int(input("Enter your grade from 0-100: "))
-if grade >= 75:
-    print ("Status: Passed")
-    if grade >= 90:
-        print ("Award with high honor ")
-    elif grade >=85:
-        print ("Award with honors ")
-    else:
-        print ("No Award")
-else:
-    print ("Status: Failed ")
+# grade = int(input("Enter your grade from 0-100: "))
+# if grade >= 75:
+#     print ("Status: Passed")
+#     if grade >= 90:
+#         print ("Award with high honor ")
+#     elif grade >=85:
+#         print ("Award with honors ")
+#     else:
+#         print ("No Award")
+# else:
+#     print ("Status: Failed ")
 
 
 '''
@@ -117,10 +117,10 @@ while condition:
 
 '''
 
-# count = 0
-# while count < 5:
-#     print ("Counter ",count)
-#     count += 1
+# count = 0       #init
+# while count < 5:    #condition
+#     print ("Counter ",count) #Body execute if true
+#     count += 1 #counter (inc)
 # print ("End of Code..")
 
 '''
@@ -129,7 +129,7 @@ while loop with else
 # count = 0
 # while count < 5:
 #     print ("Inside Loop ",count)
-#     count += 1
+#     count += 1  # 5 < 5
 # else:
 #     print ("Loop Finished!")
 # print ("End of code...")
