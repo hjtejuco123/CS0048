@@ -9,10 +9,12 @@ if condition:
     # block of codes
 '''
 
-# num = 5
+# num = -5
 # if num > 0:
 #     print ("Positive Number")
+#     print ("Another statement...")
 # print ("Continue with program code ...")
+
 
 '''
 if condition:
@@ -20,7 +22,7 @@ if condition:
 else:
     #block of codes if the condition is False
 '''
-# num = 3
+# num = -3
 # if num >= 0:
 #     print ("Number is positive ")
 # else:
@@ -59,7 +61,7 @@ else:
     #block of code
 '''
 
-# num = -1
+# num = -3
 # if num >= 0:
 #     if num == 0:
 #         print ("Zero")
@@ -67,6 +69,32 @@ else:
 #         print ("Positive number")
 # else:
 #     print ("Negative number")
+
+
+'''
+passing grade >= 75
+    grade >= 90
+        Award : with high honor
+    grade >=85
+        Award : with honors
+    else
+        Passed with no honors
+else
+    Failed
+
+'''
+
+grade = int(input("Enter your grade from 0-100: "))
+if grade >= 75:
+    print ("Status: Passed")
+    if grade >= 90:
+        print ("Award with high honor ")
+    elif grade >=85:
+        print ("Award with honors ")
+    else:
+        print ("No Award")
+else:
+    print ("Status: Failed ")
 
 
 '''
