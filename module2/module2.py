@@ -136,3 +136,12 @@ Iterating over a string
 #negative Steps
 # for i in range(10,0,-1):
 #     print(i)
+
+'''
+Iterating over a list
+'''
+fruits = ["apple","banana","cherry"]
+for i in range(len(fruits)):
+    print (f"Index {i}: {fruits[i]}")
+
+    
