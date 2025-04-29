@@ -119,3 +119,16 @@ Iterating over a string
 # message = "Hello World"
 # for char in message:
 #     print (char)
+
+#range()
+
+# for i in range(5): #Generate numbers form 0 to 4
+#     print (i)
+
+#Start / Stop
+# for i in range(1,6):
+#     print (i)
+
+#range - Start, Stop and Step
+# for i in range(1,10,2): #Generate numbers from 0-9 
+#     print (i)
