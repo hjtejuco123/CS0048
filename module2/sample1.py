@@ -25,18 +25,18 @@ while True:
 
     choice = input("Enter choice: ") #type string
     if choice == "1":
-        amount = float(input("Enter amount to deposit"))
+        amount = float(input("Enter amount to deposit: "))
         balance += amount
-        print (f"Deposited {amount}. New Balance is {balance}")
+        print (f"Deposited {amount:.2f}, New Balance is {balance:.2f}")
     elif choice == "2":
-        amount = float(input("Enter amount to withdraw"))
+        amount = float(input("Enter amount to withdraw: "))
         if amount <= balance:
             balance -= amount
-            print (f"Withdrew {amount}. New Balance is {balance}")
+            print (f"Withdrew {amount:.2f}, New Balance is {balance:.2f}")
         else:
             print ("Insufficient balance!")
     elif choice == "3":
-        print (f"Current Balance is {balance}")
+        print (f"Current Balance is {balance:.2f}")
     elif choice == "4":
         print ("Thank you for using banking System")
         break 
