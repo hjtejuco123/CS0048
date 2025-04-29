@@ -109,6 +109,13 @@ while loop with else
 '''
 Iterating over a list
 '''
-fruits = ["apple","banana","cherry"]
-for fruit in fruits:
-    print(fruit)
+# fruits = ["apple","banana","cherry"]
+# for fruit in fruits:
+#     print(fruit)
+
+'''
+Iterating over a string
+'''
+# message = "Hello World"
+# for char in message:
+#     print (char)
