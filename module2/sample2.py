@@ -3,7 +3,7 @@ ATM Pin System
 
 Problem Details
 
-User must input the corrorect pin to access the services
+User must input the correct pin to access the services
 allowed 3 times
 
 Services includes
