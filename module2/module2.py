@@ -136,6 +136,8 @@ while loop with else
 
 '''
 Iterating over a list
+for variable in sequence:
+    #execute code block
 '''
 # fruits = ["apple","banana","cherry"]
 # for fruit in fruits:
@@ -158,7 +160,7 @@ Iterating over a string
 #     print (i)
 
 #range - Start, Stop and Step
-# for i in range(1,10,2): #Generate numbers from 0-9 
+# for i in range(1,12,2): #Generate numbers from 0-9 
 #     print (i)
 
 #negative Steps
