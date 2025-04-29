@@ -132,3 +132,7 @@ Iterating over a string
 #range - Start, Stop and Step
 # for i in range(1,10,2): #Generate numbers from 0-9 
 #     print (i)
+
+#negative Steps
+# for i in range(10,0,-1):
+#     print(i)
