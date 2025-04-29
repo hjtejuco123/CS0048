@@ -186,3 +186,16 @@ using range with condition statement
 # if True:
 #     pass
 # print ("This is after pass")
+
+#nested loop with range
+
+# for i in range(3):
+#     for j in range(3):
+#         print (f"{i}, {j}",end=' ')
+#     print()
+
+#range with break
+# for i in range(1,10):
+#     if i == 5:
+#         break
+#     print(i)
