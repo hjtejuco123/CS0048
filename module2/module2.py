@@ -140,8 +140,15 @@ Iterating over a string
 '''
 Iterating over a list
 '''
-fruits = ["apple","banana","cherry"]
-for i in range(len(fruits)):
-    print (f"Index {i}: {fruits[i]}")
+# fruits = ["apple","banana","cherry"]
+# for i in range(len(fruits)):
+#     print (f"Index {i}: {fruits[i]}")
 
-    
+'''
+using range with condition statement
+
+'''
+for i in range(1,11): 
+    if i % 3 == 0:
+        continue
+    print(i)
