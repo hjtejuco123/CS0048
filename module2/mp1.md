@@ -1,4 +1,3 @@
-<!--
 # Restaurant Order Management System
 ---
 
@@ -198,4 +197,4 @@ Enter choice: 4
 Keep moving! Goodbye!
 
 
--->
+
