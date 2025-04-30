@@ -1,4 +1,4 @@
-<!--
+
 # Restaurant Order Management System
 ---
 
@@ -197,4 +197,4 @@ Calories Burned: 32.00 calories
 Enter choice: 4
 Keep moving! Goodbye!
 
--->
+
