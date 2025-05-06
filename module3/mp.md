@@ -1,4 +1,4 @@
-<!--
+
 # Simple Calculator
 
 ## Problem Statement
@@ -188,4 +188,4 @@ Score added.
 Enter your choice (1-3): 2
 
 Average Grade: 90.00
--->
+
