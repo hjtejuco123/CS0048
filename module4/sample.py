@@ -30,5 +30,25 @@ print (student2.take_exam()) #output the take exam method
 #############################################################
 
 
+#student 
+#student -> name, age, grade level
+#student -> study, can take exam 
+
+class Student:
+    #constructor
+    def __init__(self, name, grade):
+        self.name = name
+        self.grade = grade 
+
+#input 
+
+name = input("Enter student's name: ")
+grade = int(input("Enter student's grade: "))
+student1 = Student(name,grade)
+print (f"{student1.name} scored {student1.grade}% in the certification")
+
+
+####################################################################
+
 
 
